@@ -1,0 +1,30 @@
+/* -- estilos para el body --*/
+body{
+  min-height:100%;
+}
+html,
+body {
+   	margin:0;
+   	padding:0;
+   	height:100%;
+
+}
+.cabecera{
+  height: 20%;
+}
+.bodyHeader{
+	height: 5%;
+}
+.bodyContenido{
+	min-height: 60%;
+}
+.bodyFooter{
+	height: 15%;
+}
+#footer{
+	height: 100%;
+  bottom: 0px;
+}
+.content{
+  height: 100%;
+}
