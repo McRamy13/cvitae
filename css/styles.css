@@ -1,6 +1,20 @@
+/*variables*/
+/*variables*/
+:root{
+	--color-ppal:#242331;
+	--color-fondo:#F0EDEE;
+	--independence:#384E77;
+	--cerulean:#1B4079;
+}
+
 /* -- estilos para el body --*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 body{
   min-height:100%;
+}
+#titleName{
+  font-family: Roboto;
+  padding-top: 10px;
 }
 html,
 body {
@@ -8,6 +22,10 @@ body {
    	padding:0;
    	height:100%;
 
+}
+#imgPPal{
+  width: 30%;
+  height: auto;
 }
 .cabecera{
   height: 20%;
@@ -17,6 +35,7 @@ body {
 }
 .bodyContenido{
 	min-height: 60%;
+	background-color: var(--color-fondo);
 }
 .bodyFooter{
 	height: 15%;
@@ -27,4 +46,9 @@ body {
 }
 .content{
   height: 100%;
+}
+
+/* Estilos en la cabecera */
+#navContainer{
+  background-color: var(--color-ppal);
 }
